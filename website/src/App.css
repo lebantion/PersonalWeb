@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@1,500&display=swap');
+
 .App {
   text-align: center;
+  background-color: #000000;
 }
 
 .App-logo {
@@ -13,8 +16,8 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-Router {
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

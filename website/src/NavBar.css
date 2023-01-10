@@ -1,7 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,900;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Sofia+Sans+Condensed:ital,wght@0,900;1,500&display=swap');
+
+body {
+    background-color: rgb(15, 15, 15);
+    margin-left: 30px;
+}
 
 h1,
-.navbar-brand,
-.navbar-nav a {
+.navbar-nav {
     font-family: 'Sofia Sans Condensed', sans-serif;
+    color: white;
 }
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+
+.navbar-link {
+    background-color: white;
+}
+
+a {
+    color: white;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    text-decoration: inherit;
+  }

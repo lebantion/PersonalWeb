@@ -1,0 +1,33 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+h1, div, 
+.navbar-brand,
+.navbar-nav {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    color: white;
+}
+
+li {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    color: white;
+}
+
+h4 {
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+a {
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}

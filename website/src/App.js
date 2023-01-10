@@ -2,29 +2,31 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import NavBar from "./NavBar";
+import Header from "./NavBar";
+import Footer from "./Footer";
 
 import Homepage from "./pages/Home/home";
 import Diplomapage from "./pages/Diploma/diploma";
-import Resumepage from "./pages/Resume/resume";
 import Projectpage from "./pages/Projects/project";
-import AboutMe from "./pages/About/about";
+import Contactpage from "./pages/Contact/contact";
 
 import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
 
 function App() {
   return (
     <Router>
-      <NavBar />
+      <Header />
       <Routes>
         <Route path='/' element={<Homepage />}/>
-        <Route path='/About' element={<AboutMe />}/>
-        <Route path='/Resume' element={<Resumepage />}/>
         <Route path='/Projects' element={<Projectpage />}/>
         <Route path='/Diploma' element={<Diplomapage />}/>
+        <Route path='/Contact' element={<Contactpage />}/>
       </Routes>
+      <Footer />
     </Router>
   );
 }
 
 export default App;
+
+// <Route path='/Resume' element={<Resumepage />}/>

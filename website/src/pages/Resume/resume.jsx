@@ -1,7 +1,12 @@
 import React from 'react';
+import { Document, Page } from 'react-pdf';
 
-const resume = () => {
-   return <h1>Resume</h1>
+import resumePDF from '../../assets/resume.pdf'
+
+const Resume = () => {
+   return   <Document file={resumePDF}>
+            <Page pageNumber={1} />
+            </Document>
 }
 
-export default resume
+export default Resume;
